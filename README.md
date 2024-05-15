@@ -1,25 +1,22 @@
-# V10_Dyson_BMS
+# V10_Dyson_NAVER
 
-A written-from-scratch unofficial firmware for Dyson V10 Battery Management Systems
+다이슨 V10 배터리 관리 시스템 -펌웨어
 
-Allows __YOU__ to take control of your pack - rebuild it, use it to power something else, and best of all, __you can install the new firmware with just a Raspberry Pi__ - no need for expensive programmers!
+무척 쉽고+간단하게 리필 가능 합네다.
 
+최고의 장점은 값비싼 프로그래머가 필요 없이 
+라즈베리 파이 만으로 펌웨어를 설치할 수 있습니다 !
 
-Have a read of the [Wiki](https://github.com/davidmpye/V10_Dyson_BMS/wiki) for more information!
+자세한 내용은 Wiki를 읽어보세요 !
 
-TL:DR update of current position:
+현재 위치의 TL:DR 업데이트:
 
-What works:
+작동하는 것:
 
-- can charge pack, can drive vacuum cleaner, including the USART comms to keep the cleaner working
-- error reporting if faults occur
+팩을 충전할 수 있고, 청소기 작동을 유지하기 위한 USART 통신을 포함하여 진공 청소기를 구동할 수 있습니다.
+오류가 발생하면 오류 보고
+문제
 
-Problems
-- doesn't use the rest of the status LEDs to reflect cleaner problems eg Blocked/Filter statuses
-- doesn't use the coulomb charge counter to monitor pack charge, just displays guestimates based on cell voltage.
-- No cell balancing (same as stock), I doubt this can be fixed.
-
-![v10-closeup](https://github.com/davidmpye/V10_Dyson_BMS/assets/2261985/9c3c997c-1c46-4f77-aa3a-e4a8f9b940f4)
-
-
-
+차단/필터 상태와 같은 더 명확한 문제를 반영하기 위해 나머지 상태 LED를 사용하지 않습니다.
+팩 충전을 모니터링하기 위해 쿨롱 충전 카운터를 사용하지 않고 셀 전압을 기준으로 대략적인 값을 표시합니다.
+셀 밸런싱이 없습니다(스톡과 동일). 이 문제를 해결할 수 있을지 의문입니다.
